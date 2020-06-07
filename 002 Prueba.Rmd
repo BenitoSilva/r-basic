@@ -1,0 +1,24 @@
+---
+title: "002 Prueba"
+author: "Benito Silva Cuevas"
+date: "6/2/2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+library(reticulate)
+use_python("/Users/Benito/anaconda3/bin/python3")
+
+
+os <- import("os")
+os$listdir(".")
+```
+
