@@ -128,3 +128,136 @@ trunc(sqrt(2))
 sqrt(2)^2
 sqrt(2)^2-2
 
+2^50 # = 1.1259e+15
+
+print(2^50, 15) # = 1125899906842624 R Trabaja con un maximo de 16 digitos.
+
+print(pi,16) # R no es preciso despues de la cifra 16
+
+round(sqrt(2), 4)^2 # Lo que deberia ser 2 es ahora: 1.999962
+
+round(1.25,1)
+round(1.35,1)
+
+round(sqrt(2),0)
+
+round(digits = 5, sqrt(2)) # 1.41421
+
+log(32,2)
+log(base=2,32)
+
+# 23. Como crear variables en R
+
+x=(pi^2)/2
+print(x)
+x
+
+# Otra manera de Designar variables Utilizando flechas <- o ->
+
+y<-cos(pi/4)
+y
+
+sin(pi/4)+cos(4)->z
+z
+
+# Palabras como variables. Se distinguen mayusculas de minusculas
+
+edad = 30
+nombre = ("Benito Silva")
+
+HOLA = 1
+hola = 5
+
+# Utilizar formas diferentes para designar variables.
+pi.4=4*pi
+pi.4
+
+
+# 24. Como crear funciones en R.
+
+## Ejemplo: Función f(x) = x^3 - (3^x) * sen(x)
+
+f=function(x){x^3-(3^x)*sin(x)}
+
+# Recomendable escribirla como se anota abajo
+f=function(x){
+  x^3-(3^x)*sin(x)
+  }
+
+f(4)
+f(5)
+
+suma1<-function(t){
+  t+1
+}
+
+suma1(6)
+suma1(-4)
+
+
+product<-function(x,y){
+  x*y
+}
+ 
+product(5,8)
+
+
+
+
+# Más líneas en un función
+
+suma5<-function(numero){
+  numero=suma1(numero);
+  numero=suma1(numero);
+  numero=suma1(numero);
+  numero=suma1(numero);
+  suma1(numero)
+}
+
+suma5(3)
+
+# Lista Variables.
+ls()
+
+# rm() Remueve la o las variables.
+
+
+# 25. Ejercicio: Creando la función de Operaciones Básicas
+
+
+
+
+
+# 26. Trabajar con números complejos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
