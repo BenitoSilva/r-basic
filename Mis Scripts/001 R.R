@@ -118,6 +118,13 @@ asin (0.8660254)*180/pi # Para grados debe multiplicarse por 180 y dividier entr
 asin(5) # WARNING NaNs produced (Esos valores viven entre -1 y 1). Por eso error...
 
 
+# 22. Redondeo y decimales en R
+print(sqrt(2),10) # 
+round(sqrt(2),4)
+floor(sqrt(2))
+ceiling(sqrt(2))
+trunc(sqrt(2))
 
-
+sqrt(2)^2
+sqrt(2)^2-2
 
